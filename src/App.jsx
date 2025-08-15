@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import BacktestForm from './components/BacktestForm';
+import MainContainer from './components/MainContainer';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,7 +10,8 @@ function App() {
   return (
     <div className="min-h-screen bg-[#151515] flex flex-col justify-between">
       <Navbar />
-      <Footer/>
+      <MainContainer />
+      <Footer />
     </div>
   );
 }
