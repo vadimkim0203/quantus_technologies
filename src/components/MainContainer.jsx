@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import BacktestForm from './FormsContainer';
 
 export default function MainContainer() {
   const getTabFromUrl = () => {
@@ -18,7 +19,7 @@ export default function MainContainer() {
       <div className="flex gap-4">
         <h1
           onClick={() => setSelectedTab('stock')}
-          className={`font-bold transition-all duration-300 cursor-pointer ${
+          className={`font-extrabold transition-all duration-300 cursor-pointer ${
             selectedTab === 'stock'
               ? 'text-white text-2xl'
               : 'text-gray-600 text-xl'

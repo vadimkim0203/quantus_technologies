@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import BacktestForm from './components/BacktestForm';
+import BacktestForm from './components/FormsContainer';
 import MainContainer from './components/MainContainer';
 
 function App() {
